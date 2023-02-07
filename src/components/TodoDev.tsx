@@ -50,7 +50,8 @@ export function TodoDev() {
                 <li key={index}>
                   {e}
               <input type="checkbox" id='checkbox' className='chek' checked={false}
-              onChange={()=>onChecking(index)}/>
+              onChange={()=>onChecking(index)}
+              data-testid={21062}/>
                 </li>
                 ))}
               </ul>

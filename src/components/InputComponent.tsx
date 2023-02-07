@@ -21,6 +21,7 @@ export const InputComponent: React.FC<{
   }
     return (
     <input type={"text"} className={"form-control mt-2 mb-2"}
-     id="todo" value={todo} onChange={onTodo} onKeyDown={OnEnter}/>        
+     id="todo" value={todo} onChange={onTodo} onKeyDown={OnEnter}
+     placeholder={"add your todo"}/>        
     )
 }

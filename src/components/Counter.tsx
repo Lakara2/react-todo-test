@@ -10,7 +10,7 @@ export function Counter () {
     return(
         <div className='container'>
             <div className='row'>
-                <h1 className='col-6 form-control'>Count : {count}</h1>
+                <h1 className='col-6 form-control' data-testid={"bryan"}>{count}</h1>
                 <button
                     className='col-3 btn-danger btn'
                     type="button"
