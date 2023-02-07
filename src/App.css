@@ -2,6 +2,9 @@
   border: solid 2px black;
   height: 300px;
 }
+ul{
+  text-decoration: none;
+}
 .chek{
   height: 7%;
   width: 7%;
